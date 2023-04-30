@@ -32,7 +32,7 @@ jobs:
 
       # 发布到 GitHub Pages
       - name: Deploy
-        uses: visualization/actions-gh-pages@v2
+        uses: visualization/actions
         env:
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
           PUBLISH_BRANCH: gh-pages # 推送分支
