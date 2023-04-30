@@ -1,6 +1,6 @@
 # vue-project
 
-This template should help get you started developing with Vue 3 in Vite.
+vue3+ts 广东省交通大屏可视化
 
 ## Recommended IDE Setup
 
@@ -24,13 +24,13 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+pnpm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm  dev
 ```
 
 ### Type-Check, Compile and Minify for Production
