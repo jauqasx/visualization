@@ -15,7 +15,7 @@ export const radarOption = {
     itemHeight: 14,
     itemGap: 21,
     orient: "horizontal",
-    data: ["超速", "超速"],
+    data: ["超速", "压线"],
     axisLabel: {
       fontSize: 14,
       color: "#8C8C8C",
@@ -75,7 +75,7 @@ export const radarOption = {
       data: [
         {
           value: [1600, 900, 1300, 1200, 2000],
-          name: "超速",
+
           areaStyle: {
             color: "#366BAF",
           },
